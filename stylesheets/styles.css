@@ -22,29 +22,36 @@ select::-ms-expand {
 /* line 18, ../sass/styles.scss */
 .accordion {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  width: 60%;
+  margin: 0 auto;
 }
-/* line 20, ../sass/styles.scss */
+/* line 22, ../sass/styles.scss */
 .accordion .accordion-header {
   background: #D8D8D8;
   padding: 0.6em 1em;
   font-weight: bold;
   font-size: 20px;
   margin-top: 0.8em;
+  border-radius: 6px;
+  text-align: center;
 }
-/* line 26, ../sass/styles.scss */
+/* line 30, ../sass/styles.scss */
 .accordion .accordion-header.active {
   background: #E65E15;
   color: #fff;
+  border-radius: 6px 6px 0 0;
 }
-/* line 31, ../sass/styles.scss */
+/* line 36, ../sass/styles.scss */
 .accordion .accordion-content {
   display: none;
   padding: 1em;
   background: #fff;
   border: 5px solid #E65E15;
   border-top-width: 0;
+  border-radius: 0 0 6px 6px;
+  text-align: center;
 }
-/* line 37, ../sass/styles.scss */
+/* line 44, ../sass/styles.scss */
 .accordion .accordion-content p {
   font-size: 20px;
 }

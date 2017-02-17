@@ -17,15 +17,20 @@ select::-ms-expand {
 
 .accordion{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 60%;
+    margin: 0 auto;
     .accordion-header{
         background: #D8D8D8;
         padding: 0.6em 1em;
         font-weight: bold;
         font-size: 20px;
         margin-top: 0.8em;
+        border-radius: 6px;
+        text-align: center;
         &.active{
             background: #E65E15;
             color: #fff;
+            border-radius: 6px 6px 0 0;
         }
     }
     .accordion-content{
@@ -34,6 +39,8 @@ select::-ms-expand {
         background: #fff;
         border: 5px solid #E65E15;
         border-top-width: 0;
+        border-radius: 0 0 6px 6px;
+        text-align: center;
         p{
             font-size: 20px;
         }
