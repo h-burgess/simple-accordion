@@ -1,26 +1,13 @@
-html {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    overflow-x: hidden;
+body{
+    background: #F1FAEE;
 }
-*, *:before, *:after {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit;
-    -moz-appearance: none;
-}
-select::-ms-expand {
-    display: none;
-}
-
-/*  TYPOGRAPHY
---------------------------------------------*/
-
 .accordion{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     width: 60%;
     margin: 0 auto;
     .accordion-header{
-        background: #D8D8D8;
+        background: #A8DADC;
+        color: #fff;
         padding: 0.6em 1em;
         font-weight: bold;
         font-size: 20px;
@@ -28,8 +15,7 @@ select::-ms-expand {
         border-radius: 6px;
         text-align: center;
         &.active{
-            background: #E65E15;
-            color: #fff;
+            background: #457B9D;
             border-radius: 6px 6px 0 0;
         }
     }
@@ -37,7 +23,7 @@ select::-ms-expand {
         display: none;
         padding: 1em;
         background: #fff;
-        border: 5px solid #E65E15;
+        border: 5px solid #457B9D;
         border-top-width: 0;
         border-radius: 0 0 6px 6px;
         text-align: center;
@@ -46,4 +32,3 @@ select::-ms-expand {
         }
     }
 }
-
